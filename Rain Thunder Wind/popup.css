@@ -1,0 +1,37 @@
+body {
+    background-color: #d1e1f9;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  
+  button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: #3e92cc;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button.active {
+    background-color: #276692;
+  }
+  
+  button:first-child {
+    margin-left: 0;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  
